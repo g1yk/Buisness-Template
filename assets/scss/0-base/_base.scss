@@ -1,0 +1,64 @@
+
+/*--------------------------------------------------------------
+## Include Fonts
+--------------------------------------------------------------*/
+@font-face {
+    font-family: "DINNextLTPro-Bold";
+    src: url("../fonts/DINNextLTPro-Bold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "DINNextLT-Regular";
+    src: url("../fonts/DINNextLT-Regular.ttf") format("truetype");
+}
+/*--------------------------------------------------------------
+## Base
+--------------------------------------------------------------*/
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body {
+    font-family: $font-secondary, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: $color_text;
+}
+
+
+
+dl,
+ol,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+section:focus {
+    outline: none !important;
+}
+
+a {
+    transition: .25s ease-in;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+li {
+    list-style: none;
+}

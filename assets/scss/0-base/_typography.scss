@@ -1,0 +1,39 @@
+
+.font-titles {
+	font-family: $font-primary;
+}
+.heading {
+	margin-bottom: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+	font-family: $font-primary !important;
+	font-weight: bold;
+	text-align: inherit;
+	position: relative;
+	color: $color_secondary;
+	letter-spacing: -0.01em;
+
+
+	&.title {
+		margin: 0;
+	}
+	
+
+	&.heading-md,
+	&.heading-sm {
+		margin: 5px 0px;
+		font-weight: 600;
+	}
+	&.heading-sm {
+		margin: 10px 0 !important;
+	}
+	&.heading-md {
+		margin: 20px 0 !important;
+	}
+}
+a{
+    color: $color_primary;
+    font-family: $font-primary !important;
+}
+
